@@ -1,0 +1,57 @@
+h1
+{
+    color: red;
+    text-align: center;
+}
+
+body
+{
+    background-color: grey;
+}
+
+.conteneurProjet
+{
+    margin: 10px;
+    border: 1px solid black ;
+    max-width: max-content;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.projet
+{
+    margin: 10px;
+    border: 1px dashed red;
+}
+
+menu ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+menu ul li
+{
+    padding: 0 20px ;
+}
+
+menu ul li:hover .sousMenu
+{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.sousMenu
+{
+    display: none;
+    position :absolute ;
+    margin: 0;
+    padding: 0;
+}
